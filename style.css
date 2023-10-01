@@ -226,6 +226,7 @@ h3 {
 
 .language_section {
     position: relative;
+    margin-bottom: 300px;
 }
 .language_section h3{
     position: absolute;
@@ -238,4 +239,38 @@ h3 {
     padding-bottom: 5px;
 }
 
+.language_content {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.background {
+    background-color: #fff;
+    width: 360px;
+    height: 210px;
+    border:3px solid #354649;
+}
+
+.python img {
+    max-width: 60%;
+    max-height: 60%;
+    object-fit: contain;
+}
+
+.html_css img{
+    max-width: 60%;
+    max-height: 60%;
+    object-fit: contain;
+}
+
+.java img {
+    max-width: 60%;
+    max-height: 60%;
+    object-fit: contain;
+}
+
+.js img {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain;
+}
