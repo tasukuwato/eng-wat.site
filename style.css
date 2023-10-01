@@ -69,7 +69,7 @@ img {
     width: 300px;
     height: 300px;
     object-fit: cover;
-    margin-right: 20px;
+
 }
 
 
@@ -158,19 +158,19 @@ h3 {
     font-size: 24px;
 }
 
-.sevice {
+.service {
     position: relative;
-    text-align: center;
+    margin-bottom: 100px;
 }
 
 .service p{
+    position: absolute;
     font-family: 'Rubik', serif;
     color: #354649;
     font-size: 64px;
-    position: absolute;
-    left: 40%;
-    top: 668%;
-
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .service h2{
@@ -179,14 +179,63 @@ h3 {
     font-family: 'Rubik', serif;
     opacity: 0.3;
     text-align: center;
-    position: absolute;
-    left:6%
 }
 
 
 .service_info {
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.service_detail {
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+
 }
 .service_detail img {
     border-radius: 50%;
+    margin-bottom: 50px;
 }
+
+.service_detail h3 {
+    font-family: 'Kiwi Maru', serif;
+    color: #354649;
+    font-size: 24px;
+    text-align: center;
+}
+
+.service_detail p {
+    font-family: 'Kiwi Maru', serif;
+    color: #354649;
+    font-size: 16px;
+}
+
+
+.talk_section {
+    margin-bottom: 150px;
+}
+
+.language_section h3{
+    font-family: 'Kiwi Maru', serif;
+    color: #354649;
+    font-size: 24px;
+}
+
+
+.language_section {
+    position: relative;
+}
+.language_section h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 300px;
+    border-bottom: 3px solid #354649;
+    padding-bottom: 5px;
+}
+
+
